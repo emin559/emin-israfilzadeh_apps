@@ -12,6 +12,5 @@ public class BasicCalculator {
         System.out.println("Substaraction is: " + (number1-number2) );
         System.out.println("Dividing is: " + (number1/number2) );
         System.out.println("multiplication is: " + (number1*number2) );
-        System.out.println("multiplication is: " + (number1*number2) );
     }
 }
