@@ -48,8 +48,6 @@ public class Array1702 {
         }
 
         System.out.println(Arrays.toString(array1));
-        System.out.println(Arrays.toString(arrayPosClear));
-        System.out.println(Arrays.toString(arrayPosShifted));
         System.out.println(Arrays.toString(arrayShifted));
 
     }
