@@ -20,5 +20,30 @@ class StringTask9Test {
     String expected = "wlkjhy";
     String actual = task.filter(origin);
     assertEquals(expected, actual);
+
+    origin = "auioe";
+    expected = "";
+    actual = task.filter(origin);
+    assertEquals(expected, actual);
+
+    origin = "auo";
+    expected = "";
+    actual = task.filter(origin);
+    assertEquals(expected, actual);
+
+    origin = "AUO";
+    expected = "";
+    actual = task.filter(origin);
+    assertEquals(expected, actual);
+
+    origin = "VOKLUEAUO";
+    expected = "vkl";
+    actual = task.filter(origin);
+    assertEquals(expected, actual);
+
+    origin = "WEroiKljMhgV";
+    expected = "wrkljmhgv";
+    actual = task.filter(origin);
+    assertEquals(expected, actual);
   }
 }
