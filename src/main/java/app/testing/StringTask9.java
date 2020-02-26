@@ -14,8 +14,4 @@ public class StringTask9 implements Filterable {
     return origin.replace("-", "").toLowerCase();
   }
 
-  public static void main(String[] args) {
-    StringTask9 tsk = new StringTask9();
-    System.out.println(tsk.filter("qweyuiolkjhgeui"));
-  }
 }
